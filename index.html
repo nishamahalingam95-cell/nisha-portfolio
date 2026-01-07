@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisha - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Nisha</div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-circle">
+                <div class="profile-inner">
+                    <div class="profile-letter">N</div>
+                </div>
+            </div>
+            <h1>Nisha</h1>
+            <p class="subtitle">Full-Stack Developer & Creative Technologist</p>
+            <p class="description">
+                Transforming ideas into elegant digital experiences. Passionate about building beautiful, 
+                user-centric applications that make a difference.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/yourusername" class="social-link" target="_blank">
+                    <span>🔗</span>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" class="social-link" target="_blank">
+                    <span>💼</span>
+                </a>
+                <a href="mailto:nisha@example.com" class="social-link">
+                    <span>📧</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="card">
+                    <h3>My Story</h3>
+                    <p>
+                        Hi! I'm Nisha, a passionate developer who loves creating meaningful digital experiences. 
+                        With a strong foundation in both frontend and backend technologies, I bring ideas to life 
+                        through clean code and thoughtful design.
+                    </p>
+                    <p>
+                        I believe in continuous learning and staying up-to-date with the latest technologies. 
+                        When I'm not coding, you'll find me exploring new design trends, contributing to 
+                        open-source projects, or mentoring aspiring developers.
+                    </p>
+                    <p style="color: #9333ea; font-weight: 600;">✨ Let's build something amazing together!</p>
+                </div>
+                <div class="card">
+                    <h3>Skills & Expertise</h3>
+                    <div class="skills-list">
+                        <div class="skill-category">
+                            <h4>Frontend</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">Next.js</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Backend</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Express</span>
+                                <span class="skill-tag">REST APIs</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Database</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">MongoDB</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">Firebase</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools & More</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Professional Journey</h2>
+            <div class="experience-list">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-title">
+                            <h3>Senior Full-Stack Developer</h3>
+                            <p class="experience-company">Tech Innovations Inc.</p>
+                        </div>
+                        <span class="experience-period">2023 - Present</span>
+                    </div>
+                    <p>Leading development of scalable web applications and mentoring junior developers.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-title">
+                            <h3>Frontend Developer</h3>
+                            <p class="experience-company">Digital Solutions Co.</p>
+                        </div>
+                        <span class="experience-period">2021 - 2023</span>
+                    </div>
+                    <p>Built responsive user interfaces and improved application performance by 40%.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-title">
+                            <h3>Junior Developer</h3>
+                            <p class="experience-company">StartUp Labs</p>
+                        </div>
+                        <span class="experience-period">2020 - 2021</span>
+                    </div>
+                    <p>Developed features for MVP products and collaborated with cross-functional teams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">✨</span>
+                        <a href="#" class="project-link">🔗</a>
+                    </div>
+                    <h3>Creative Design Studio</h3>
+                    <p class="project-description">
+                        A stunning portfolio platform showcasing modern design work with interactive galleries and smooth animations.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Framer Motion</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">❤️</span>
+                        <a href="#" class="project-link">🔗</a>
+                    </div>
+                    <h3>Wellness & Mindfulness App</h3>
+                    <p class="project-description">
+                        Mobile-first meditation and wellness tracking app with beautiful UI and personalized recommendations.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Redux</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">📚</span>
+                        <a href="#" class="project-link">🔗</a>
+                    </div>
+                    <h3>E-Learning Platform</h3>
+                    <p class="project-description">
+                        Interactive learning management system with video courses, quizzes, and progress tracking for students.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🏆</span>
+                        <a href="#" class="project-link">🔗</a>
+                    </div>
+                    <h3>Smart Task Manager</h3>
+                    <p class="project-description">
+                        AI-powered productivity tool with intelligent task prioritization, calendar integration, and team collaboration.
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">OpenAI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <div class="contact-card">
+                <p class="contact-intro">
+                    I'm always excited to collaborate on new projects and ideas. 
+                    Whether you have a question or just want to say hi, feel free to reach out!
+                </p>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <input type="text" class="form-input" placeholder="Your Name" required>
+                    <input type="email" class="form-input" placeholder="Your Email" required>
+                    <textarea class="form-input" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-icons">
+                    <a href="nishamahalingam95@gmail.com" class="contact-icon">📧</a>
+                    <a href="https://github.com/yourusername" class="contact-icon" target="_blank">🔗</a>
+                    <a href="https://linkedin.com/in/yourusername" class="contact-icon" target="_blank">💼</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Nisha. Crafted with <span class="heart">❤️</span> and creativity.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
